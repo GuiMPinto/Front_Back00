@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', function()
         })
         .then(function(json)
         {
-            avatar.src = json.avatar;
+            avatar.src = json.avatar_url;
             nome.innerText = json.name;
             login.innerText = json.login;
             seguidores.innerText = json.followers;
